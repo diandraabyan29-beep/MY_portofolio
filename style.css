@@ -12,7 +12,7 @@
   padding: 10px;
   text-align: center;
   border-radius: 25px;
-  height: 60px;
+  height: auto;
 }
 
 @font-face {
@@ -22,14 +22,14 @@
 
 .p1 {
   font-family: 'Nyong', sans-serif;
-  font-size: 2rem;
+  font-size: 1.5rem;
   color: aliceblue;
   text-align: center;
-  margin-top: 40px;
+  margin: 30px 15px;
 }
 
 .h2 {
-  font-size: 2.5rem;
+  font-size: 2rem;
   text-align: center;
   color: aliceblue;
 }
@@ -37,89 +37,69 @@
 .foto {
   display: block;
   margin: 20px auto;
-  width: 25%;
+  width: 70%;
+  max-width: 250px;
   border-radius: 20px;
 }
 
-
 .p2 {
-  font-size: 1.2rem;
+  font-size: 1.1rem;
   color: antiquewhite;
-  margin: 40px;
+  margin: 20px;
   line-height: 1.6;
   text-align: justify;
-}
-
-.div1{
-    height: 100%;
 }
 
 .div {
   background-color: rgb(204, 208, 208);
   color: black;
-  border-radius: 1.2rem;
+  border-radius: 1rem;
   padding: 20px;
   text-align: center;
   display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
-.img1 {
- width: 50%;
-  border-radius: 1.2rem;
-  transition: transform 0.3s ease;
-}
-.img2{
-    width: 50%;
-  border-radius: 1.2rem;
-  transition: transform 0.3s ease;
+.edu-card {
+  margin: 15px 0;
 }
 
-.img3{
-       width: 50%;
-  border-radius: 1.2rem;
+.edu-card img {
+  width: 90%;
+  max-width: 300px;
+  border-radius: 1rem;
   transition: transform 0.3s ease;
 }
 
-.img1:hover,
-.img2:hover,
-.img3:hover {
+.edu-card img:hover {
   transform: scale(1.05);
 }
 
 .h3 {
-  font-size: 2rem;
+  font-size: 1.6rem;
   color: rgb(18, 18, 18);
-  margin-left: 40px;
-  text-align: center;
-}
-
-.p3 {
-  font-size: 1.2rem;
-  color: beige;
-  margin-left: 40px;
-  line-height: 1.6;
+  margin-bottom: 15px;
 }
 
 .h4 {
-  font-size: 2rem;
+  font-size: 1.6rem;
   color: azure;
-  margin-left: 40px;
+  margin: 20px;
 }
 
 .p4 {
-  font-size: 1.2rem;
+  font-size: 1.1rem;
   color: blanchedalmond;
-  margin-left: 40px;
+  margin: 0 20px 40px;
   line-height: 1.6;
 }
-
 
 .footer {
   background-color: rgb(124, 141, 141);
   text-align: center;
   border-radius: 12px;
   padding: 15px;
-  margin-top: 50px;
   color: black;
 }
 
@@ -132,4 +112,32 @@
 
 .footer a:hover {
   text-decoration: underline;
+}
+
+/* 📱 RESPONSIVE UNTUK HP */
+@media (max-width: 600px) {
+  .navbar h1 {
+    font-size: 1.2rem;
+  }
+
+  .p1 {
+    font-size: 1.2rem;
+  }
+
+  .h2 {
+    font-size: 1.5rem;
+  }
+
+  .p2, .p4 {
+    font-size: 1rem;
+    margin: 15px;
+  }
+
+  .div {
+    padding: 15px;
+  }
+
+  .edu-card img {
+    width: 100%;
+  }
 }
