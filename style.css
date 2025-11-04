@@ -1,0 +1,135 @@
+.body {
+  background-color: rgb(39, 39, 39);
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  color: aliceblue;
+}
+
+.navbar {
+  background-color: rgb(159, 170, 170);
+  color: rgb(22, 19, 19);
+  padding: 10px;
+  text-align: center;
+  border-radius: 25px;
+  height: 60px;
+}
+
+@font-face {
+  font-family: 'Nyong';
+  src: url('fonts/Italiana-Regular.ttf');
+}
+
+.p1 {
+  font-family: 'Nyong', sans-serif;
+  font-size: 2rem;
+  color: aliceblue;
+  text-align: center;
+  margin-top: 40px;
+}
+
+.h2 {
+  font-size: 2.5rem;
+  text-align: center;
+  color: aliceblue;
+}
+
+.foto {
+  display: block;
+  margin: 20px auto;
+  width: 25%;
+  border-radius: 20px;
+}
+
+
+.p2 {
+  font-size: 1.2rem;
+  color: antiquewhite;
+  margin: 40px;
+  line-height: 1.6;
+  text-align: justify;
+}
+
+.div1{
+    height: 100%;
+}
+
+.div {
+  background-color: rgb(204, 208, 208);
+  color: black;
+  border-radius: 1.2rem;
+  padding: 20px;
+  text-align: center;
+  display: flex;
+}
+
+.img1 {
+ width: 50%;
+  border-radius: 1.2rem;
+  transition: transform 0.3s ease;
+}
+.img2{
+    width: 50%;
+  border-radius: 1.2rem;
+  transition: transform 0.3s ease;
+}
+
+.img3{
+       width: 50%;
+  border-radius: 1.2rem;
+  transition: transform 0.3s ease;
+}
+
+.img1:hover,
+.img2:hover,
+.img3:hover {
+  transform: scale(1.05);
+}
+
+.h3 {
+  font-size: 2rem;
+  color: rgb(18, 18, 18);
+  margin-left: 40px;
+  text-align: center;
+}
+
+.p3 {
+  font-size: 1.2rem;
+  color: beige;
+  margin-left: 40px;
+  line-height: 1.6;
+}
+
+.h4 {
+  font-size: 2rem;
+  color: azure;
+  margin-left: 40px;
+}
+
+.p4 {
+  font-size: 1.2rem;
+  color: blanchedalmond;
+  margin-left: 40px;
+  line-height: 1.6;
+}
+
+
+.footer {
+  background-color: rgb(124, 141, 141);
+  text-align: center;
+  border-radius: 12px;
+  padding: 15px;
+  margin-top: 50px;
+  color: black;
+}
+
+.footer a {
+  color: black;
+  text-decoration: none;
+  font-weight: bold;
+  margin: 0 10px;
+}
+
+.footer a:hover {
+  text-decoration: underline;
+}
