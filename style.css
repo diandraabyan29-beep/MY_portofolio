@@ -1,129 +1,120 @@
 body {
-  font-family: 'Poppins', sans-serif;
   margin: 0;
-  background-color: #fffaf5;
-  color: #333;
-}
-
-.navbar {
-  background-color: #ff7b00;
+  font-family: Arial, sans-serif;
+  background: #0f172a;
   color: white;
-  padding: 1rem;
+}
+
+/* Navbar */
+.navbar {
+  background: #020617;
+  padding: 15px;
   text-align: center;
-  font-weight: bold;
 }
 
-.logo {
-  margin: 0;
-}
-
+/* Hero */
 .hero {
+  padding: 50px 20px;
+}
+
+.hero-container {
+  max-width: 1000px;
+  margin: auto;
   display: flex;
-  align-items: center;
-  justify-content: space-around;
   flex-wrap: wrap;
-  padding: 40px 20px;
-  background-color: #fff3e0;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.foto {
+  width: 200px;
+  border-radius: 10px;
 }
 
 .intro-text {
   max-width: 500px;
 }
 
-.intro-text span {
-  color: #ff6600;
+.trust {
+  margin-top: 10px;
+  color: #94a3b8;
 }
 
-.foto {
-  width: 250px;
-  height: 250px;
-  object-fit: cover;
-  border-radius: 15px; /* bukan oval, persegi lembut */
-  box-shadow: 0 5px 20px rgba(255, 102, 0, 0.3);
-}
-
-.about, .education, .skills {
-  margin: 40px auto;
-  max-width: 900px;
-  padding: 20px;
-}
-
-h3 {
-  color: #ff6600;
-  text-align: center;
-  margin-bottom: 15px;
-}
-
-.edu-container {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  gap: 20px;
-}
-
-.edu-card {
-  background: #fff8f0;
-  border: 1px solid #ffd9b3;
-  border-radius: 15px;
-  width: 250px;
-  text-align: center;
-  padding: 15px;
+/* CTA Button */
+.cta a {
+  display: inline-block;
+  margin: 10px 10px 0 0;
+  padding: 12px 25px;
+  background: #38bdf8;
+  color: black;
+  border-radius: 10px;
+  text-decoration: none;
+  font-weight: bold;
   transition: 0.3s;
 }
 
-.edu-card:hover {
-  transform: scale(1.05);
-  box-shadow: 0 5px 15px rgba(255, 128, 0, 0.3);
+.cta a:hover {
+  background: #0ea5e9;
 }
 
-.edu-card img {
-  width: 100%;
+/* Section */
+section {
+  padding: 40px 20px;
+  text-align: center;
+}
+
+/* Services */
+.services ul {
+  list-style: none;
+  padding: 0;
+}
+
+.services li {
+  margin: 10px 0;
+}
+
+/* Projects */
+.project-container {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.project-card {
+  background: #1e293b;
+  padding: 20px;
   border-radius: 10px;
+  width: 260px;
 }
 
+/* Skills */
 .skills ul {
   list-style: none;
   padding: 0;
-  text-align: center;
 }
 
-.skills li {
-  background-color: #fff3e0;
-  padding: 10px;
-  margin: 8px auto;
-  border-radius: 8px;
-  width: 60%;
-  transition: 0.3s;
-}
-
-.skills li:hover {
-  background-color: #ffdbb3;
-}
-
+/* Footer */
 .footer {
-  text-align: center;
+  background: #020617;
   padding: 20px;
-  background-color: #ff7b00;
+  text-align: center;
+}
+
+a {
+  color: #38bdf8;
+}
+
+/* WA FLOAT */
+.wa-float {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background: #25D366;
   color: white;
-}
-
-.footer a {
-  color: #fff5e6;
+  padding: 15px;
+  border-radius: 50%;
   text-decoration: none;
-  font-weight: bold;
-}
-
-.footer a:hover {
-  color: #ffe6cc;
-}
-
-/* Efek Scroll */
-.fade {
-  opacity: 0;
-  transform: translateY(40px);
-  transition: all 1s ease;
-}
-.fade.visible {
-  opacity: 1;
-  transform: translateY(0);
+  font-size: 20px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.3);
 }
