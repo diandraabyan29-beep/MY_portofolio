@@ -118,3 +118,23 @@ a {
   font-size: 20px;
   box-shadow: 0 4px 10px rgba(0,0,0,0.3);
 }
+
+small {
+  display: block;
+  color: gray;
+  margin-bottom: 10px;
+  font-size: 13px;
+}
+
+.services {
+  padding: 40px;
+  text-align: center;
+}
+
+.service-card {
+  background: #6d94bb;
+  margin: 10px auto;
+  padding: 20px;
+  border-radius: 10px;
+  max-width: 300px;
+}
